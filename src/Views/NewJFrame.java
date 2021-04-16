@@ -69,7 +69,7 @@ public class NewJFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void yyyyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_yyyyActionPerformed
-       yyyy.setText("YbiDien");
+       yyyy.setText("ThienBikhung");
     }//GEN-LAST:event_yyyyActionPerformed
 
     /**
