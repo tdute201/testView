@@ -35,6 +35,11 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton1.setText("jButton1");
 
         yyyy.setText("ycute");
+        yyyy.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                yyyyActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -62,6 +67,10 @@ public class NewJFrame extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void yyyyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_yyyyActionPerformed
+       yyyy.setText("YbiDien");
+    }//GEN-LAST:event_yyyyActionPerformed
 
     /**
      * @param args the command line arguments
