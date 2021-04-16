@@ -28,16 +28,16 @@ public class NewJFrame extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
-        yyyy = new javax.swing.JButton();
+        ttt = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jButton1.setText("jButton1");
 
-        yyyy.setText("ycute");
-        yyyy.addActionListener(new java.awt.event.ActionListener() {
+        ttt.setText("ycute");
+        ttt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                yyyyActionPerformed(evt);
+                tttActionPerformed(evt);
             }
         });
 
@@ -52,7 +52,7 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addComponent(jButton1))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(142, 142, 142)
-                        .addComponent(yyyy)))
+                        .addComponent(ttt)))
                 .addContainerGap(199, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -61,16 +61,16 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGap(24, 24, 24)
                 .addComponent(jButton1)
                 .addGap(78, 78, 78)
-                .addComponent(yyyy)
+                .addComponent(ttt)
                 .addContainerGap(154, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void yyyyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_yyyyActionPerformed
-       yyyy.setText("ThienBikhung");
-    }//GEN-LAST:event_yyyyActionPerformed
+    private void tttActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttActionPerformed
+       ttt.setText("ThienBikhung");
+    }//GEN-LAST:event_tttActionPerformed
 
     /**
      * @param args the command line arguments
@@ -109,6 +109,6 @@ public class NewJFrame extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton yyyy;
+    private javax.swing.JButton ttt;
     // End of variables declaration//GEN-END:variables
 }
