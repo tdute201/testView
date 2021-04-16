@@ -70,6 +70,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void tttActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttActionPerformed
        ttt.setText("ThienBikhung");
+       jButton1.setText("123");
     }//GEN-LAST:event_tttActionPerformed
 
     /**
